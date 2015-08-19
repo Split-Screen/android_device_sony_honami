@@ -29,7 +29,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/honami/bluetooth
 TARGET_KERNEL_CONFIG := cm_rhine_honami_row_defconfig
 
 # TWRP
-TARGET_RECOVERY_DEVICE_DIRS := device/sony/honami
 DEVICE_RESOLUTION := 1080x1920
 TW_THEME := portrait_hdpi
 TW_INCLUDE_CRYPTO := true
