@@ -32,14 +32,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/honami/bluetooth
 # Kernel properties
 TARGET_KERNEL_CONFIG := cm_rhine_honami_row_defconfig
 
-# TWRP
-DEVICE_RESOLUTION := 1080x1920
-TW_THEME := portrait_hdpi
-TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_L_CRYPTO := true
-RECOVERY_GRAPHICS_USE_LINELENGTH := true
-TW_SCREEN_BLANK_ON_BOOT := true
-
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
 
